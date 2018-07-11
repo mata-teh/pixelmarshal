@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Pixel Marshals | Home Page</title>
+	<title>Pixel Marshals | </title>
 	<?php echo link_tag('css/styles.css'); ?>
 	<?php echo link_tag('css/bootstrap.min.css'); ?>
 	<?php echo link_tag('css/oxygen.css'); ?>

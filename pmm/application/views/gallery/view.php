@@ -45,7 +45,7 @@ if($this->input->post()){
 			</tr>
 			<tr>
 			<td><h5><?=$author?></h5></td>
-			<td><h5><?=$lists?></h5></td>
+			<td><h5><?=str_replace ("_", " ", $lists);?></h5></td>
 			<td><h5><?=$category?></h5></td>
 			<td><h5><?=$description?></h5></td>
 			</tr>

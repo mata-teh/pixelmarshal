@@ -43,18 +43,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    <label for="caption">List</label>
 			<select class="form-control" name="lists" >
 				<option value="Masters">Masters</option>
-				<option value="Historical - Ancient">Historical - Ancient</option>
-				<option value="Historical - Medieval">Historical - Medieval</option>
-				<option value="Historical - Renaissance">Historical - Renaissance</option>
-				<option value="Historical - 18th Century">Historical - 18th Century</option>
-				<option value="Historical - 19th Century">Historical - 19th Century</option>
-				<option value="Historical - Early 20th Century">Historical - Early 20th Century</option>
-				<option value="Historical - WWII">Historical - WWII</option>
-				<option value="Historical - Cold War">Historical - Cold War</option>
-				<option value="Historical - Modern">Historical - Modern</option>
-				<option value="Non-Historical - Alternate History and Universe">Non-Historical - Alternate History and Universe</option>
-				<option value="Non-Historical - Fantasy">Non-Historical - Fantasy</option>
-				<option value="Non-Historical - Science Fiction">Non-Historical - Science Fiction</option>
+				<option value="Historical_-_Ancient">Historical - Ancient</option>
+				<option value="Historical_-_Medieval">Historical - Medieval</option>
+				<option value="Historical_-_Renaissance">Historical - Renaissance</option>
+				<option value="Historical_-_18th_Century">Historical - 18th Century</option>
+				<option value="Historical_-_19th_Century">Historical - 19th Century</option>
+				<option value="Historical_-_Early_20th_Century">Historical - Early 20th Century</option>
+				<option value="Historical_-_WWII">Historical - WWII</option>
+				<option value="Historical_-_Cold_War">Historical - Cold War</option>
+				<option value="Historical_-_Modern">Historical - Modern</option>
+				<option value="Non-Historical_-_Alternate_History_and_Universe">Non-Historical - Alternate History and Universe</option>
+				<option value="Non-Historical_-_Fantasy">Non-Historical - Fantasy</option>
+				<option value="Non-Historical_-_Science_Fiction">Non-Historical - Science Fiction</option>
 			</select>
 		  </div>
 

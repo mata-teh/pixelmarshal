@@ -19,6 +19,14 @@ class Gallery extends CI_Controller {
 		$this->load->view('gallery/index', $data);
 	}
 	
+	public function lists($list)
+	{
+		$data = [
+			'images'	=> $this->Gallery_model->lists($list)
+		];
+		$this->load->view('gallery/lists', $data);
+	}
+	
 	public function admeen()
 	{
 		$data = [

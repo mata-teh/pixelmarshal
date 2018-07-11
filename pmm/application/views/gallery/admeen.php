@@ -36,7 +36,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="caption">
 							<h3><?=$img->caption?></h3>
 							<h4><?=$img->author?></h4>
-							<h4><?=$img->lists?></h4>
+							<h4><?= str_replace ("_", " ", $img->lists);?></h4>
 							<h4><?=$img->category?></h4>
 							<p><?=substr($img->description, 0,100)?>...</p>
 							<p>

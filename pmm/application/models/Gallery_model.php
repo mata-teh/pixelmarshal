@@ -5,9 +5,15 @@ class Gallery_model extends CI_Model {
 
 	public function all()
 	{
-		$result = $this->db->get('images');
+		$result = $this->db->group_by("caption")->get('images');
 		return $result;
 	}
+
+	public function lists($list)
+	{
+		$result = $this->db->where('lists',$list)->get('images');
+		return $result;
+	}	
 
 	public function find($id)
 	{
